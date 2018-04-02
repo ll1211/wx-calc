@@ -1,0 +1,34 @@
+<!--pages/cal/cal.wxml-->
+<view class="content">
+    <view class="screen">{{text}}</view>
+    <view class="btn-group">
+        <button type="warn" class="item" data-num="back" bindtap="touchBtn">退格</button>
+        <button type="warn" class="item" data-num="clear" bindtap="touchBtn">清屏</button>
+        <button type="warn" class="item" data-num="minus" bindtap="touchBtn">+/-</button>
+        <button type="warn" class="item" data-num="+" bindtap="touchBtn">+</button>
+    </view>
+    <view class="btn-group">
+        <button type="default" class="item" data-num="9" bindtap="touchBtn">9</button>
+        <button type="default" class="item" data-num="8" bindtap="touchBtn">8</button>
+        <button type="default" class="item" data-num="7" bindtap="touchBtn">7</button>
+        <button type="warn" class="item" data-num="-" bindtap="touchBtn">-</button>
+    </view>
+    <view class="btn-group">
+        <button type="default" class="item" data-num="6" bindtap="touchBtn">6</button>
+        <button type="default" class="item" data-num="5" bindtap="touchBtn">5</button>
+        <button type="default" class="item" data-num="4" bindtap="touchBtn">4</button>
+        <button type="warn" class="item" data-num="×" bindtap="touchBtn">×</button>
+    </view>
+    <view class="btn-group">
+        <button type="default" class="item" data-num="3" bindtap="touchBtn">3</button>
+        <button type="default" class="item" data-num="2" bindtap="touchBtn">2</button>
+        <button type="default" class="item" data-num="1" bindtap="touchBtn">1</button>
+        <button type="warn" class="item" data-num="÷" bindtap="touchBtn">÷</button>
+    </view>
+    <view class="btn-group">
+        <button type="default" class="item" data-num="0" bindtap="touchBtn">0</button>
+        <button type="default" class="item" data-num="." bindtap="touchBtn">.</button>
+        <button type="default" class="item" bindtap="toHistory">历史</button>
+        <button type="warn" class="item" data-num="eq" bindtap="touchBtn">=</button>
+    </view>
+</view>

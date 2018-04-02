@@ -1,0 +1,6 @@
+<!--pages/history/history.wxml-->
+<view class="content" style="background-image: url('../assets/img/bg.png');">
+    <view class="item" wx:for="{{logs}}">
+        {{item}}
+    </view>
+</view>
